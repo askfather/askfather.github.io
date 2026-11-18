@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>神父，請問……</title>
+<meta name="description" content="常有人向天主教徒提出的問題：簡短而清楚的解答。">
+<meta name="theme-color" content="#172B4D">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="神父，請問">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="bar">
+  <a class="bar-home" href="#/" aria-label="主頁"><img src="icons/icon-192.png" alt=""><span id="bar-title">神父，請問……</span></a>
+  <div class="bar-tools">
+    <button id="btn-script" class="pill" type="button">繁｜简</button>
+    <a id="btn-about" class="icon-btn" href="#/about" aria-label="關於">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 10.5v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7.4" r="1.2" fill="currentColor"/></svg>
+    </a>
+  </div>
+</header>
+<main id="view" tabindex="-1"></main>
+<div id="sheet" class="sheet" hidden></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "神父，請問……",
+  "short_name": "神父，請問",
+  "description": "常有人向天主教徒提出的問題：簡短而清楚的解答。",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F8F5EF",
+  "theme_color": "#172B4D",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-round-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
